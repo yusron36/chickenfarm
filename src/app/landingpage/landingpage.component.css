@@ -1,0 +1,32 @@
+.sidebar{
+    height: 100%;
+    width: 10%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    background-color:teal;
+}
+.content{
+    width: 90%;
+    height: 100%;
+    float: right;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 10px;
+    left:0;
+    margin: 0;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+    display: block;
+    transition: 0.1s ease-in-out;
+}
+.sidebar ul li a:hover{
+    border-bottom:1px solid white;
+}
